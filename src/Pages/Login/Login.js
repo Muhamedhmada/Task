@@ -86,7 +86,7 @@ function Login() {
               placeholder={t("password_placeholder")}
             />
             <div className="icon" onClick={() => handleClick()}>
-              {pass ? <Eye color="black"/> : <EyeSlash color="black" width="30px"/>}
+              {pass ? <Eye color="#git686767" width="20px"/> : <EyeSlash color="black" width="30px"/>}
             </div>
           </div>
           <button type="submit" onClick={handleSumbit} disabled={loader}>
