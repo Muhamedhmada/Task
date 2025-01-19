@@ -1,0 +1,28 @@
+.home-container{
+  overflow: hidden;
+  display: flex;
+}
+.home-container .one{
+  width: 100%;
+}
+.home-container .content{
+  width: 92%;
+  padding: 30px;
+  border: 1px solid #eee;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ .home-container .content >p{
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,41 @@
+.lang-button {
+  background-color: transparent;
+  color: black;
+  margin: auto;
+  padding: 8px 12px;
+  font-size: larger;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  position: relative;
+  cursor: pointer;
+  font-family: 'Tajawal', sans-serif;
+  margin: 0;
+
+}
+
+.language-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.lang-option {
+  font-size: larger;
+  display: block;
+  width: 100%;
+  /* padding: 8px; */
+  border: none;
+  background: none;
+  /* text-align: left; */
+  cursor: pointer;
+}
+
+.lang-option:hover {
+  background-color: #f0f0f0;
+}

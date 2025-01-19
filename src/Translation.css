@@ -1,0 +1,54 @@
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] body {
+  text-align: right;
+  direction: rtl;
+}
+
+html[dir="rtl"] .content {
+  text-align: right;
+  /* Any additional styles for RTL layout */
+}
+
+/* aside */
+html[dir="rtl"] aside ul li{
+  direction: rtl;
+  text-align: right !important;
+}
+html[dir="rtl"] .navbar-container{
+  direction: rtl;
+}
+html[dir="rtl"] .controlCard-container{
+  direction: rtl;
+}
+html[dir="rtl"] .newOrder-container{
+  direction: rtl;
+}
+/* 
+html[dir="rtl"] .home-container{
+  direction: ltr;
+} */
+
+
+html[dir="rtl"] .closeIcon{
+  right: 200px;
+  top: 50%;
+  transition: right ease-in .3s;
+}
+html[dir="rtl"] .closeIcon.opened{
+  top: 50%;
+  right: 0px;
+} 
+
+html[dir="rtl"] .aside-container{
+  /* transform: translateX(0) !important;
+  width: 100%;
+  transition:transform ease-in-out .3s, width ease-in-out .3s ; */
+
+}
+html[dir="rtl"] .aside-container.closed{
+  transform: translateX(5000px) !important;
+  width: 0;
+}

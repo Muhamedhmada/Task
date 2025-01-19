@@ -1,0 +1,112 @@
+.newOrder-container{
+  padding: 20px;
+  border: 1px solid var(--fourth-color);
+}
+.newOrder-container .newOrder-content{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.newOrder-container .newOrder-content .header{
+  display: flex;
+  justify-content: space-between;
+}
+.newOrder-container .newOrder-content .header .info{
+  display: flex;
+  flex-direction: column;
+}
+.newOrder-container .newOrder-content .header .info p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.newOrder-container .newOrder-content .header button{
+  background-color: var(--primary-color);
+  padding: 20px;
+  width: 105px;
+  color: white;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+.newOrder-container .newOrder-content .data .client{
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+}
+.newOrder-container .newOrder-content .data .client .icon{
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid var(--fourth-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newOrder-container .newOrder-content .data .client .info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.newOrder-container .newOrder-content .data .client .info span{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 10px;
+}
+.newOrder-container .newOrder-content .data .client .info a{
+  text-decoration: underline;
+}
+.newOrder-container .newOrder-content .data button.statusBtn{
+  color: var(--primary-color);
+  background-color: var(--fourth-color);
+  border-radius: 2px;
+}
+
+.newOrder-container .newOrder-content .data .statusIcon{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-color: var(--third-color);
+}
+
+
+.newOrder-container .newOrder-content .ant-pagination-item,
+.newOrder-container .newOrder-content .anticon-left,
+.newOrder-container .newOrder-content .anticon-right{
+  background-color: var(--third-color);
+  color: black !important;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--fourth-color);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newOrder-container .newOrder-content .ant-pagination-item a{
+  font-weight: bold;
+}
+.newOrder-container .newOrder-content .ant-pagination-item-active{
+  background-color: var(--primary-color);
+}
+.newOrder-container .newOrder-content .ant-pagination-item-active a{
+  color: var(--third-color) !important;
+
+}
+
+
+.newOrder-container .newOrder-content .anticon-left a{
+  color: black;
+}
+
+
+
+
+
+
+/* antd */
+
+
+.newOrder-container .newOrder-content .ant-table-cell{
+  background-color: transparent !important;
+}

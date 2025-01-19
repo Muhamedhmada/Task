@@ -1,0 +1,90 @@
+.aside-container{
+  flex: 1;
+  position: relative;
+  transform: translateX(0) !important;
+  width: 100%;
+  transition:transform ease-in-out .3s, width ease-in-out .3s ;
+}
+.aside-container.closed{
+  transform: translateX(-280px) !important;
+  width: 0;
+}
+
+
+
+
+
+
+
+
+
+.aside-container aside{
+  width: 280px;
+  background-color: var(--third-color);
+  height: 100vh;
+  border: 1px solid var(--fourth-color);
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.aside-container aside.closed{
+  grid-template-columns: 0 1fr;
+}
+.aside-container aside .closeIcon{
+  z-index: 99999999;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+}
+.aside-container aside .image{
+  border-bottom: 1px solid var(--fourth-color);
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aside-container aside ul{
+  display: flex;
+  flex-direction: column;
+}
+.aside-container aside ul li{
+  /* direction: rtl; */
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: .3s;
+  cursor: pointer;
+}
+.aside-container aside ul li:hover{
+  background-color: rgba(43, 187, 43, 0.26);
+  background-color: var(--fourth-color);
+  color: var(--primary-color);
+}
+
+/*  -------------icon------------- */
+.openIcon , .closeIcon{
+  background-color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: left ease-in .3s;
+}
+.closeIcon.closed{
+  left: 200px;
+  top: 50%;
+}
+.closeIcon.opened{
+  top: 50%;
+  left: 30px;
+}

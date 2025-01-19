@@ -1,0 +1,32 @@
+{
+  "welcome": "Bienvenido",
+  "description": "Iniciar sesión en su panel de control",
+  "login": "Iniciar sesión en su panel de control",
+  "enter_credentials": "Por favor ingrese las credenciales correctas para acceder",
+  "email_placeholder": "Dirección de correo electrónico",
+  "password_placeholder": "Contraseña",
+  "login_button": "Iniciar sesión",
+  "back_to_home": "Volver a la página de inicio",
+  "orders":"Solicitudes",
+  "messages":"mensaje",
+  "control_panal":"panel de control",
+  "products_department":"Departamento de productos",
+  "products":"productos",
+  "users":"usuarios",
+  "web_site":"sitio web",
+
+  "all_messages":"Todos los mensajes",
+  "all_products":"Todos los productos",
+  "completed_orders":"pedidos completados",
+  "new_orders":"Nuevos pedidos",
+  "new_order":"Nuevos pedido",
+  "client":"cliente",
+  "order_status":"estado del pedido",
+  "tools":"herramientas",
+  "last_week_messages":"mensajes de la semana pasada",
+  "show_all":"mostrar todo",
+  "no_data":"Sin datos",
+  "manage_your_customers'_orders":"Gestiona las solicitudes de tus clientes",
+  "Messages_sent_to_you_by_your_customers_through_your_website":"Mensajes que le envían sus clientes a través de su sitio web"
+
+}

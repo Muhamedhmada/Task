@@ -1,0 +1,129 @@
+.login-container .content{
+  font-family: 'Tajawal', sans-serif;
+  width: 600px;
+  margin: auto;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login-container .content .image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.login-container .content form div{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.login-container .content form{
+  padding: 20px 20px;
+  border: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-container .content form label:first-child{
+  font-weight: bold;
+  font-size: 20px;
+}
+.login-container .content form label:nth-child(2){
+  font-size: 16px;
+  font-weight: 500;
+}
+.login-container .content form input{
+  border: 1px solid #b8a6a6;
+  color: #b8a6a6;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px;
+  height: 50px;
+}
+html[dir="rtl"] .login-container .content form input{
+  text-align: right;
+}
+.login-container .content form input::placeholder{
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  color: #686767;
+}
+.login-container .content form .passInput{
+  position: relative;
+  height: 50px;
+}
+.login-container .content form .passInput input{
+  width: 100%;
+  height: 100%;
+}
+.login-container .content form .passInput .icon{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.login-container .content form button{
+  background-color: var(--primary-color);
+  /* background-color: red; */
+  color: white;
+  height: 50px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container .content form button .anticon-spin{
+  margin: 0 !important;
+  color: white !important;
+}
+.login-container .content form span{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+
+html[dir="rtl"] .passInput .icon{
+  left: 20px;
+}
+html[dir="ltr"] .passInput .icon{
+  right: 20px;
+}
+
+
+
+
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] body {
+  text-align: right;
+}
+
+html[dir="rtl"] .content {
+  text-align: right;
+  /* Any additional styles for RTL layout */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
